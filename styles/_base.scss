@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Gotham;
+  src: url("/assets/fonts/GothamSSm-Medium.otf");
+}
+
+* {
+  font-family: Gotham;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  color: #4D4D4D;
+}
+// Removes default link styling
+a { color: inherit; } 
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+// Helper classes
+.mb {
+  &--4 {
+    margin-bottom: 4rem;
+  }
+}
+
+
+#timer {
+  right: 213px;
+  font-size: 1.7rem;
+  bottom: 293px;
+  transform: rotate(-44.5deg);
+  color: #eee;
+  position: absolute;
+}

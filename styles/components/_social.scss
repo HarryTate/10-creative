@@ -1,0 +1,32 @@
+.social {
+  &__list {
+    padding-left: 0;
+  }
+  &__hashtag {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  &__icon {
+    cursor: pointer;
+    display: inline-block;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+
+    &--linkedin {
+      background-image: url("/assets/images/linkedin.svg");
+    }
+
+    &--twitter {
+      background-image: url("/assets/images/twitter.svg");
+    }
+
+    &--youtube {
+      background-image: url("/assets/images/youtube.svg");
+    }
+  }
+
+}

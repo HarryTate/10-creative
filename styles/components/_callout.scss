@@ -1,0 +1,41 @@
+.callout {
+  @extend .container;
+  
+  &__wrapper {
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    margin-top: 8rem;
+    top: -550px;
+    right: 50px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    border-bottom: 10px solid $light-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10rem;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+      margin-top: 0;
+      right: 330px;
+      top: -200px;
+    }
+  }
+
+  &__content {
+    transform: rotate(-45deg);
+  }
+
+  &__image {
+    width: 250px;
+  }
+
+  &__text { 
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    padding: 0 20px;
+  }
+}
